@@ -1,13 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Incomex</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/modulos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
-    
+    <div class="super-info-bg">
+        <div class="super-info">
+            <p>Espírito Santos</p>
+            <p>contato@contato.com.br</p>
+            <a class="color-a" href="tel:+619999999">(61) 9 9999-9999</a>
+        </div>
+    </div>
+    <header class="navbar mobile">
+        <div class="topnav">
+            <a href="#home" class="active">
+                <img class="size-mobile"src="img/logo.png" alt="" srcset="">
+            </a>
+            <div id="myLinks">
+                <a class="color-hover" href="#módulos">módulos</a>
+                <a class="color-hover" href="#soluções">soluções</a>
+                <a class="color-hover" href="#atendemos">atendemos</a>
+                <a class="color-hover" href="#contatos">contato</a>
+                <a class="color-hover" class="color-a-enter" href="#contatos">entrar</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+          </div>          
+    </header>
+    <header class="navbar desk">
+        <div class="logo">
+            <img class="size"src="img/logo_250px.png" alt="" srcset="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#módulos">módulos</a></li>
+                <li><a href="#soluções">soluções</a></li>
+                <li><a href="#atendemos">atendemos</a></li>
+                <li><a href="#contatos">contato</a></li>
+                <li><a class="color-a-enter" href="#contatos">entrar</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="inicio">
+        <div class="logo-section">
+            <img src="img/logo-inicio.png" alt="incomex_logo" srcset="">
+        </div>
+        <div class="men">
+            <img src="img/men-inicio.png" alt="income_men" srcset="">
+        </div>
+        <div class="woman">
+            <img src="img/woman-inicio.png" alt="" srcset="">
+        </div>
+    </section>
+
+    <!-- módulos -->
+
+    <section class="modulos">
+        <div class="titulo_modulo">
+            <h2 class="tituloM">oferecemos seguintes módulos para gerenciar sua empresa</h2>
+        </div>
+        
+        <div class="parte-1">
+           
+            <div class="column-m1">
+                    <h2 class="faturamento">Faturamento</h2>
+                <p class="ok">
+                    <img class="svg-verifi" src="img/ok.svg" alt="" srcset="">
+                    Emissor de Nota Fiscal - NFe
+                </p>
+                <p class="ok">
+                    <img class="svg-verifi" src="img/ok.svg" alt="" srcset="">
+                    Emissor de Nota Fiscal ao Consumidor - NFC-e
+                </p>
+                <p class="ok">
+                    <img class="svg-verifi" src="img/ok.svg" alt="" srcset="">
+                    Emissor de MDF-e (Manifesto de Documento Fiscal eletrônico)
+                </p>
+                <p class="ok">
+                    <img class="svg-verifi" src="img/ok.svg" alt="" srcset="">
+                    Emissor de Boletos integrado com a NF
+                </p>
+                <p class="ok">
+                    <img class="svg-verifi" src="img/ok.svg" alt="" srcset="">
+                    Sistema de carregamento com romaneio de entrega
+                </p>  
+                <p class="ok">
+                    <img class="svg-verifi" src="img/ok.svg" alt="" srcset="">
+                    Emissor PDV Frente de Caixa integrado com TEF e balança
+                </p>  
+                <p class="ok">
+                    <img class="svg-verifi" src="img/ok.svg" alt="" srcset="">
+                    Sistema de Força de Venda (App para Android)
+                </p> 
+                <p class="ok">
+                    <img class="svg-verifi" src="img/ok.svg" alt="" srcset="">
+                    Sistema de agendamento simplificado
+                </p> 
+                <p class="ok">
+                    <img class="svg-verifi" src="img/ok.svg" alt="" srcset="">
+                    Relatórios completos e simplificados.
+                </p> 
+
+            </div>
+            <div class="column-m2">
+                <img src="img/deskto.png" alt="" srcset="">
+                
+            </div>
+        </div>
+    </section>
+   
 
     <script src="js/index.js"></script>
 </body>

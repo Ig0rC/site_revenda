@@ -1,0 +1,54 @@
+.modulos{
+    background: #F8F8F8;
+}
+
+.parte-1{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column-m1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.column-m1 p{
+    font-size: 18px;
+}
+.svg-verifi{
+    max-width: 4%;
+    margin: 0 5px;
+}
+
+.ok{
+    margin: 5px 5px;
+    display: flex;
+}
+
+.faturamento {
+    text-align: center;
+    font-weight: 500;
+    color: #4F5FA8;
+    margin: 20px 0;
+}
+
+.titulo_modulo{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.tituloM{
+    font-weight: 400;
+    color: #4F5FA8;
+  
+}
+
+@media (max-width: 900px){
+    .column-m2{
+        order: -1;
+    }
+}
