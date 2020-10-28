@@ -12,10 +12,18 @@
     padding: 20px 0px;
 }
 
+.parte-3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
 .column-m1{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 
 .column-m1 p{
@@ -31,8 +39,11 @@
 }
 
 .ok{
-    margin: 5px 5px;
-    display: flex;
+    background-image: url('../img/ok.svg');
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-bottom: 5px;  /* width of the image plus a little extra padding */
+    display: block;  /* may not need this, but I've found I do */
 }
 
 .faturamento {
@@ -48,20 +59,23 @@
     padding-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
+   
 }
 .tituloM{
     font-weight: 400;
     color: #4F5FA8;
-  
+    font-size: 26px;
 }
-.estoque{
-   
-}
+
+
 @media (max-width: 1070px){
     .column-m2{
         order: -1;
     }
     .parte-1{
+        justify-content: center;
+    }
+    .parte-3{
         justify-content: center;
     }
 }
