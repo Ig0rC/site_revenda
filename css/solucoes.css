@@ -73,13 +73,3 @@
     justify-content: center;
     }
 }
-
-.create{
-    background-image: url('../img/check.png');
-    background-repeat: no-repeat;
-    padding-left: 25px;
-    padding-bottom: 5px;  /* width of the image plus a little extra padding */
-    display: block;  /* may not need this, but I've found I do */
-    font-size: 18px;
-   
-}

@@ -1,0 +1,51 @@
+.vantagens{
+    max-width: 1400px;
+    margin: 0 auto;
+   
+}
+.vantagens-sub{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+ 
+}
+
+
+.flex-1{
+    flex: 1 0 15%;
+}
+
+.flex-2{
+    flex: 2 0 85%;
+}
+
+.tituloV{
+
+    padding-bottom: 15px;
+    color: green;
+    font-weight: 400;
+    font-size: 32px;
+   
+}
+.img-vantagens {
+    margin-top: 20px;
+}
+.desV{
+    font-size: 20px;
+    margin: 10px 10px;
+}
+
+
+@media (max-width: 1100px){
+    .vantagens-sub{
+        flex-wrap: wrap;
+    }
+    .flex-1{
+        flex: 1 0 20%;
+    }
+    
+    .flex-2{
+        flex: 2 0 85%;
+    }
+    
+}

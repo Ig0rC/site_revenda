@@ -19,7 +19,7 @@ a:link{
     background: #4F5FA8;
 }
 .super-info{
-    max-width: 1300px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -45,7 +45,7 @@ a:link{
 .navbar{
     margin: 0 auto;
     margin-bottom: 20px;
-    max-width: 1300px;
+    max-width: 1400px;
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
@@ -91,12 +91,12 @@ ul{
 /* Section inicio */
 
 .inicio{
-    max-width: 1300px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    
 }
 
 
@@ -125,9 +125,10 @@ img{
     }
 }
 
-@media (max-width: 914px){
-    .woman{
-        display: block;
+@media (max-width: 800px){
+    .inicio{
+        flex-wrap: wrap;
+        justify-content: center !important;
     }
 }
 
