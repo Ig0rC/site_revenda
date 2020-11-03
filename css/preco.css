@@ -1,0 +1,123 @@
+.precos{
+   background: #F8F8F8;
+}
+
+.column-precos{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.preco-1{
+    text-align: center;
+    background: #e4e4e4;
+    padding-bottom: 200px;
+    
+}
+
+.preco-1 h2 {
+    text-align: center;
+    background: #4F5FA8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 34px 133.5px;
+    font-size: 30px;
+    color: white;
+}
+.preco-1 span{
+    font-size: 100px !important;
+  
+}
+.preco-2{
+    text-align: center;
+    background: #e4e4e4;
+    
+}
+.preco-vlr{
+    font-size: 20px;
+    color: red;
+    padding: 50px 0px;
+}
+.tituloP{
+    text-align: center;
+    background: #4F5FA8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 34px 133.5px;
+    font-size: 30px;
+    color: white;
+}
+.preco-2 span{
+    font-size: 100px !important;
+  
+}
+
+
+.preco-2 h2{
+    text-align: center;
+    background: #4F5FA8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.precos-flex-1{
+    margin: 5px 5px;
+     width: 520px;
+}
+
+.btn-p{
+    margin-top: 100px !important;
+    padding: 30px 100px;
+    background: #00EA25;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 800;
+    color:#4F5FA8;
+   
+}
+
+.TP{
+    margin-bottom: 100px !important
+}
+
+.preco-ds{
+    margin: 20px 5px;
+    font-size: 20px;
+    background-image: url('../img/check.png');
+    background-repeat: no-repeat;
+    padding-left: 40px;  /* width of the image plus a little extra padding */
+    display: block;  /* may not need this, but I've found I do */
+
+}
+
+.pp{
+   text-align: start; 
+   max-width: 60%;
+   margin: 0 auto;
+}
+
+@media (max-width: 1059px){
+    .column-precos{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px){
+    .tituloP{
+        padding: 5% 10%;
+    }
+    .pp{
+        text-align: start; 
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 600px){
+   
+    .pp{
+        text-align: start; 
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,69 @@
+.ContainerP{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.perguntasF{
+    background: white;
+}
+.tituloPergunta{
+    max-width: 1600px;
+    margin: 0 auto;
+    color: green;
+    font-weight: 400;
+    font-size: 32px;
+    padding-top: 50px;
+   
+}
+
+.tituloPergunta p{
+    margin-bottom: 20px;
+    
+}
+.accordion {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #4F5FA8;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: 10px 10px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .ative, .accordion:hover {
+    background-color: #4F5FA8;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-size: 22px;
+  }
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 20px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .ative:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+
+
+  @media (max-width: 1620px){
+    .tituloPergunta p {
+        margin-left: 10px;
+    }
+}

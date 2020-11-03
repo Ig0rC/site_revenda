@@ -34,7 +34,15 @@
     flex-wrap: wrap;
 }
 
-
+.env{
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    background: #4B9543;
+}
 .descricaoS p{
     color: black;
     font-size: 19.5px;

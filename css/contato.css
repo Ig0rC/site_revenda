@@ -1,0 +1,184 @@
+.tituloContato{
+    max-width: 1600px;
+    margin: 0 auto;
+  
+    color: green;
+    font-weight: 400;
+    font-size: 32px;
+    padding-top: 50px;
+}
+
+.Formulario{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+
+.inputsNomeSobrenome p{
+    color: #4F5FA8;
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.inputs_contato{
+    border-radius: 30px;
+    border: none;
+    background: rgba(196, 196, 196, 24%);
+    font-size: 20px;
+    padding-left: 10px;
+    margin: 15px 5px;
+    width: 250px;
+    height: 40px;
+    color: black;
+}
+.contatologo{
+    margin-top: 30px;
+}
+
+.formInputs{
+   flex: 1 1 600px;
+
+}
+.btn{
+    width: 435px;
+    display: flex;
+    justify-content: flex-end;
+}
+.btnstyles{
+    margin-top: 10px;
+    max-width: 52px;
+    
+}
+
+textarea{
+    border: none;
+    border-radius: 30px;
+    height: 10px;
+    background: rgba(196, 196, 196, 24%);
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 520px ;
+    height: 100px;
+    font-size: 18px;
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-weight: 400;
+    
+}
+
+.contatoinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tituloC {
+    width: 250px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #4F5FA8;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.contatoinfo a {
+    width: 250px;
+    height: 35px;
+    text-decoration: none;
+    color: #4B9543;
+    font-size: 22px;
+    margin: 10px 0px;
+   
+}
+.emailContato{
+    background-image: url('../img/34px.png');
+    background-repeat: no-repeat;
+    padding-left: 40px;  /* width of the image plus a little extra padding */
+    display: block;  /* may not need this, but I've found I do */
+}
+.telefoneContato{
+    background-image: url('../img/phone.png');
+    background-repeat: no-repeat;
+    padding-left: 40px;  /* width of the image plus a little extra padding */
+    display: block;  /* may not need this, but I've found I do */
+}
+.contato-margin{
+    margin-bottom: 100px;
+}
+
+.criador{
+    width: 100%;
+    background: #4F5FA8;
+    height: 20px;
+    
+}
+
+@media (max-width: 1620px){
+    .tituloContato p {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 1205px){
+    .Formulario{
+        justify-content: center;
+    }
+    .formInputs{
+        flex: none;
+     
+     }
+     .contatologo{
+         margin: 10px;
+     }
+}
+
+@media (max-width: 532px){
+    .formInputs{
+        flex: 1 1 600px;
+     
+     }
+     .inputs_contato{
+         width: 97%;
+     }
+     textarea{
+        width: 97%;
+     }
+     .btn{
+        width: 100%;
+    }
+    .btnstyles{
+        margin-top: 10px;
+        max-width: none;
+        
+    }
+    .contatoinfo{
+        flex-wrap: wrap;
+    }
+    .emailContato{
+       font-size: 18px !important;
+       margin-left: 5px !important;
+       margin-right: 5px !important;
+       padding-left: 35px; 
+    }
+    .tituloC {
+        width: 100%;
+        font-size: 30px;
+        font-weight: 600;
+        color: #4F5FA8;
+        margin-bottom: 10px;
+        margin-top: 30px;
+     
+    }
+    .contatoinfo a {
+        width: 100%;
+        height: 35px;
+        text-decoration: none;
+        color: #4B9543;
+        font-size: 22px;
+        margin: 10px 0px;
+ 
+       
+    }
+}

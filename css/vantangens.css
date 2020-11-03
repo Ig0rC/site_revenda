@@ -49,3 +49,13 @@
     }
     
 }
+
+@media (max-width: 700px){
+    .vantagens-sub{
+        justify-content: center;
+        text-align: center;
+    }
+    .img-vantagens img{
+        margin: 0 auto;
+    }
+}
