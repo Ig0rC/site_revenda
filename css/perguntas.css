@@ -1,6 +1,7 @@
 .ContainerP{
     max-width: 1600px;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 .perguntasF{
     background: #F8F8F8;
@@ -31,7 +32,7 @@
     border: none;
     outline: none;
     transition: 0.4s;
-    margin: 10px 10px;
+    margin: 10px 0px;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -47,6 +48,7 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     font-size: 22px;
+    margin: 0 10px;
   }
   .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */

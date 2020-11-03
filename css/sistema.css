@@ -18,6 +18,7 @@
     font-weight: 400;
     font-size: 32px;
     padding-top: 50px;
+    word-wrap: break-word;
 }
 
 .descricaoS{
