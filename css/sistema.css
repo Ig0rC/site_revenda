@@ -61,10 +61,8 @@
     color: white;
     margin: 60px 10px;
     background: #4F5FA8;
-    
     vertical-align: middle;
-
-    flex: 1 1 400px;
+    width:  400px;
 
 }
 
@@ -131,3 +129,8 @@
     }
 }
 
+@media (max-width: 1259px){
+    .column-S{
+        justify-content: space-around;
+    }
+}
