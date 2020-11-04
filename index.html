@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/preco.css">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/perguntas.css">
+    <link rel="stylesheet" href="css/btn.css">
+    <link rel="stylesheet" href="css/modal.css">
 </head>
 
 <body>
@@ -53,7 +55,7 @@
                 <li><a href="#inicio">Ínicio</a></li>
                 <li><a href="#funcionalidades">Funcionalidades</a></li>
                 <li><a href="#sistemas">Sistemas</a></li>
-                <li><a href="#precos">Precos</a></li>
+                <li><a href="#precos">Preços</a></li>
                 <li><a href="#duvidas">Dúvidas</a></li>
                 <li><a href="#contato">Contato</a></li>
                 <li><a class="color-a-enter" href="#">entrar</a></li>
@@ -75,6 +77,7 @@
 
     <!-- GESTOR -->
     <section class="vantagens">
+        <div class="vantagens-div">
         <div id="funcionalidades" class="tituloS">
             <p>Principais Funcionalidades</p>
         </div>
@@ -84,9 +87,10 @@
             </div>
             <div class="text-vantagens flex-2">
                 <p class="tituloV">Todas as operações da NFe garantida</p>
-                <p class="desV">No Infocomex, o empreendedor tem garantido a emissão de diversas operações da nota fiscal, 
-                    como: entrada, saída, devolução, complementar, de ajuste, de remessa, importação, entre 
-                    outros. Além disso, o software possibilita Cancelamento de Carta de Correção de forma 
+                <p class="desV">No Infocomex, o empreendedor tem garantido a emissão de diversas operações da nota
+                    fiscal,
+                    como: entrada, saída, devolução, complementar, de ajuste, de remessa, importação, entre
+                    outros. Além disso, o software possibilita Cancelamento de Carta de Correção de forma
                     ágil e eficiente, garantindo sempre segurança para o contribuinte.
                 </p>
             </div>
@@ -99,7 +103,7 @@
             <div class="text-vantagens flex-2">
                 <p class="tituloV">Emita suas notas dando baixa automática de estoque</p>
                 <p class="desV">
-                    Ao emitir notas fiscais o sistema automaticamente da baixa no seu estoque, 
+                    Ao emitir notas fiscais o sistema automaticamente da baixa no seu estoque,
                     caso a nota for cancelada o sistema tem a <Br>capacidade de estorna a retirada de estoque
                 </p>
             </div>
@@ -111,8 +115,8 @@
             </div>
             <div class="text-vantagens flex-2">
                 <p class="tituloV">Financeiro: Contas a Pagar e Receber</p>
-                <p class="desV">Infocomex permite também por meio da emissão de notas, 
-                    o controle e movimentação total do Fluxo de Caixa, trazendo assim eficiência 
+                <p class="desV">Infocomex permite também por meio da emissão de notas,
+                    o controle e movimentação total do Fluxo de Caixa, trazendo assim eficiência
                     para a gestão financeira da empresa, possibilitando resultados e dados certeiros
                     para o processo de tomada de decisão.
                 </p>
@@ -138,8 +142,8 @@
             </div>
             <div class="text-vantagens flex-2">
                 <p class="tituloV">Envie todas as suas notas por email</p>
-                <p class="desV">Após a emissão da nota, é possível enviar de forma automática 
-                    a nota e o seu XML direto para o email do cliente e/ou do contador, 
+                <p class="desV">Após a emissão da nota, é possível enviar de forma automática
+                    a nota e o seu XML direto para o email do cliente e/ou do contador,
                     agilizando assim alguns processos. Desta forma o empresário terá economia na impressão da nota.
                 </p>
             </div>
@@ -151,9 +155,10 @@
             </div>
             <div class="text-vantagens flex-2">
                 <p class="tituloV">Certificado Digital</p>
-                <p class="desV">No Infocomex, o empreendedor tem garantido a emissão de diversas operações da nota fiscal, 
-                    como: entrada, saída, devolução, complementar, de ajuste, de remessa, importação, entre 
-                    outros. Além disso, o software possibilita Cancelamento de Carta de Correção de forma 
+                <p class="desV">No Infocomex, o empreendedor tem garantido a emissão de diversas operações da nota
+                    fiscal,
+                    como: entrada, saída, devolução, complementar, de ajuste, de remessa, importação, entre
+                    outros. Além disso, o software possibilita Cancelamento de Carta de Correção de forma
                     ágil e eficiente, garantindo sempre segurança para o contribuinte.
                 </p>
             </div>
@@ -165,14 +170,23 @@
             </div>
             <div class="text-vantagens flex-2">
                 <p class="tituloV">Integração com o controle de vendas</p>
-                <p class="desV">O Infocomex um software no modelo ERP de gestão que trabalha 
+                <p class="desV">O Infocomex um software no modelo ERP de gestão que trabalha
                     integrando os mais variados setores administrativos da empresa por meio
                     de uma única plataforma. Ou seja, quando é realizado um pedido de venda você pode
-                     convertê-lo em uma nova NFe em menos de um minuto com segurança e agilidade.
+                    convertê-lo em uma nova NFe em menos de um minuto com segurança e agilidade.
                 </p>
             </div>
         </div>
-    
+        <div class="btn-free">
+            <div class="tituloS">
+                <p>Quer testar as funcionalidades gratuito por 15 dias ?</p>
+
+            </div>
+            <div class="btn-styles">
+                <button class="myBtn env" id="myBtn">Teste Agora!!</button>
+            </div>
+        </div>
+    </div>
     </section>
 
     <section class="sistemas">
@@ -216,11 +230,19 @@
                 </div>
             </div>
         </div>
+        <div class="btn-free">
+            <div class="tituloS">
+                <p>Gostou do Soft NF-e Web? Teste grátis por 15 dias</p>
+            </div>
+            <div class="btn-styles">
+                <button class="myBtn env" id="btnBody">Clique aqui</button>
+            </div>
+        </div>
     </section>
 
     <!-- GESTOR -->
     <section class="sistemas-2">
-        <div class="tituloS">
+        <div class="tituloS border-top-green">
             <p>Soft Gestor Web</p>
         </div>
         <div class="descricaoS">
@@ -229,9 +251,9 @@
                 Podendo ser vinculado a emissão de NF-e, MDF-e e NFC-e.
             </p>
         </div>
-    
+
         <div class="column-S">
-           
+
             <div class="colunaS">
                 <img class="image_sistema white" src="img/cadastro_system.png" alt="" srcset="">
                 <h2>Cadastro</h2>
@@ -281,6 +303,15 @@
                 </div>
             </div>
         </div>
+        <div class="btn-free">
+            <div class="tituloS">
+                <p>Gostou do Soft Gestor Web? Teste grátis por 15 dias</p>
+            </div>
+            <div class="btn-styles">
+                <button class="myBtn env" id="btnFooter">Clique aqui</button>
+
+            </div>
+        </div>
     </section>
 
     <!-- preços -->
@@ -297,13 +328,10 @@
 
                     ,90 / mês
                 </p>
-           
+
                 <div class="pp">
-                    <p class='preco-ds'>Instalação em Nuvens ou Local</p>
+                    <p class='preco-ds'>Acesso em qualquer Computador com Internet</p>
                     <p class='preco-ds'>Emissor de NF-e</p>
-                    <p class='preco-ds'>NF-e com boleto integrado</p>
-                    <p class='preco-ds'>Financeiro</p>
-                    <p class='preco-ds'>Estoque</p>
                     <p class='preco-ds'>Relatório diversos</p>
                 </div>
             </div>
@@ -317,16 +345,16 @@
                         ,90 / mês
                     </p>
                     <div class="pp">
-                        <p class='preco-ds'>Instalação em Nuvens ou Local</p>
+                        <p class='preco-ds'>Acesso em qualquer Computador com Internet</p>
                         <p class='preco-ds'>Emissor de NF-e</p>
                         <p class='preco-ds'>NF-e com boleto integrado</p>
                         <p class='preco-ds'>Financeiro</p>
                         <p class='preco-ds'>Estoque</p>
                         <p class='preco-ds'>Relatório diversos</p>
                     </div>
-                    
+
                 </div>
-       
+
             </div>
         </div>
     </section>
@@ -337,93 +365,237 @@
         </div>
         <div class="ContainerP">
             <button class="accordion">Funciona sem internet?</button>
-                <div class="panel">
-                <p>Sim, nosso aplicativo é instalado em seu computador e não faz uso de navegação. 
-                    Porém é importante lembrar que algumas funcionalidades tais como emissão de 
+            <div class="panel">
+                <p>Sim, nosso aplicativo é instalado em seu computador e não faz uso de navegação.
+                    Porém é importante lembrar que algumas funcionalidades tais como emissão de
                     documentos fiscais e que necessitam de autorização dos servidores do governo, precisam
-                     de internet. Funções básicas tais como emissão de orçamentos, pedidos e operações de contas
-                      a pagar e receber funcionam normalmente.</p>
-                </div>
+                    de internet. Funções básicas tais como emissão de orçamentos, pedidos e operações de contas
+                    a pagar e receber funcionam normalmente.</p>
+            </div>
 
             <button class="accordion">Atende Certificados A1 e A3?</button>
-                <div class="panel">
+            <div class="panel">
                 <p>Sim. Nosso sistema aceita o certificado A1 e A3, porém o A3 só funciona em máquina local.
                 </p>
-                </div>
+            </div>
 
             <button class="accordion">Como funciona o envio do XML para a contabilidade?</button>
-                <div class="panel">
+            <div class="panel">
                 <p>Nosso sistema de gestão permite o envio fácil de todos arquivos XML para sua contabilidade.
-                     Isso será explicado nos treinamentos dentro do período de implantação.</p>
-                </div>
+                    Isso será explicado nos treinamentos dentro do período de implantação.</p>
+            </div>
             <button class="accordion">O sistema é em nuvem ou fica instalado em meu computador?</button>
-                <div class="panel">
+            <div class="panel">
                 <p>Temos duas opções. O Sistema Soft pode ser instalado localmente ou pode ser em Nuvens</p>
-                </div>
+            </div>
             <button class="accordion">Sou MEI. Este sistema de gestão me atende?</button>
-                <div class="panel">
+            <div class="panel">
                 <p>Sim, com toda certeza. Todo sistema foi pensado em ajudar o micro empreendedor.
-                     É um sistema de fácil uso, com ajuda técnica de qualidade e um preço totalmente acessível.</p>
-                </div>
+                    É um sistema de fácil uso, com ajuda técnica de qualidade e um preço totalmente acessível.</p>
+            </div>
             <button class="accordion">Como pago as mensalidades? E se eu deixar de pagar, o que ocorre?</button>
-                <div class="panel">
-                <p>A cobrança será por meio de boletos, 
+            <div class="panel">
+                <p>A cobrança será por meio de boletos,
                     Após o vencimento da mensalidade terão 3 dias para efetuar o pagamento caso passe o tempo,
-                     o sistema será bloqueado e será cobrado juros</p>
-                </div>
-             <button class="accordion">Consigo aproveitar meus cadastros de outro sistema antigo?</button>
-                <div class="panel">
-                <p>Para responder a esta questão, precisamos fazer uma análise prévia. Normalmente cobramos um valor para efetuar esta operação. 
+                    o sistema será bloqueado e será cobrado juros</p>
+            </div>
+            <button class="accordion">Consigo aproveitar meus cadastros de outro sistema antigo?</button>
+            <div class="panel">
+                <p>Para responder a esta questão, precisamos fazer uma análise prévia. Normalmente cobramos um valor
+                    para efetuar esta operação.
                     Consulte nossos colaboradores, para maiores informações..</p>
-                </div>
-        
+            </div>
+
 
         </div>
     </section>
 
-    <section id="contato" class="contato-margin" >
+    <section id="contato" class="contato-margin">
         <div class="tituloContato">
             <p>Contato</p>
         </div>
         <!-- formulario -->
-            <div class="Formulario">
-                <!-- inputs -->
-                <div class="formInputs">
-                    <div class="inputsNomeSobrenome">
-                        <p>Dados pessoal</p>
-                        <input class="inputs_contato" placeholder="nome" type="text" name="name">
-                        <input class="inputs_contato" placeholder="sobrenome" type="text" name="sobrenome">
-                    </div>
-                    <div class="inputsTelefoneEmail">
-                        <input class="inputs_contato" placeholder="e-mail" type="email" name="email" id="">
-                        <input class="inputs_contato" placeholder="telefone" type="tel" name="" id="">
-                    </div>
-                    <div class="text">
-                        <textarea placeholder="Mensagem"name="msg" id="msg" cols="30" rows="10"></textarea>
-                    </div>
-                    <div class="btn">
-                        <div class="btnstyles">
-                            <button class="env" type="submit">enviar</button>
+        <div class="Formulario">
+            <!-- inputs -->
+            <div class="formInputs">
+                <div class="inputsNomeSobrenome">
+                    <p>Dados pessoais</p>
+                    <div class="flex-input">
+                        <div class="input-1">    
+                            <input class="inputs_contato" placeholder="nome" type="text" name="name">
+                        </div>
+                        <div class="input-1">
+                            <input class="inputs_contato" placeholder="sobrenome" type="text" name="sobrenome">
                         </div>
                     </div>
+                  
+                    
                 </div>
-                <!-- logo -->
-                <div class="contatologo">
-                    <img src="img/logo-inicio.png" alt="" srcset="">
-                    <div class="contatoinfo">
-                        <p class="tituloC">Nosso Contatos</p>
-                        <p class="emailContato">contato@infocomex.com.br</p>
-                        <p class="telefoneContato">(47) 32491347</p>
+
+                <div class="inputsTelefoneEmail">
+                    <div class="flex-input">
+                        <div class="input-1">    
+                            <input class="inputs_contato" placeholder="e-mail" type="email" name="email" id="">
+
+                        </div>
+                        <div class="input-1">
+                            <input class="inputs_contato" placeholder="telefone" type="tel" name="" id="">
+                        </div>
+                    </div>
+             
+                </div>
+                <div class="text">
+                    <textarea placeholder="Mensagem" name="msg" id="msg" cols="30" rows="10"></textarea>
+                </div>
+                <div class="btn">
+                    <div class="btnstyles">
+                        <button class="env" type="submit">enviar</button>
                     </div>
                 </div>
             </div>
+            <!-- logo -->
+            <div class="contatologo">
+                <img src="img/logo_contato.png" alt="" srcset="">
+                <div class="contatoinfo">
+                    <p class="tituloC">Nossos Contatos</p>
+                    <p class="emailContato">contato@infocomex.com.br</p>
+                    <p class="telefoneContato">(47) 32491347</p>
+                </div>
+            </div>
+        </div>
     </section>
-    
-    <footer class="criador">
-     
-    </footer>
-   
-    <script src="js/index.js"></script>
+
+    <div id="myModal" class="modal">
+
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="flex-modal">
+                <div id="sistemas" class="tituloS ">
+                    <p class="modal-titulo">Opa! Estamos quase lá!</p>
+                    <p class="modal-titulo-segundo">Por favor, preencha o formulário que entraremos em contato!</p>
+                </div>
+                <div class="flex-center">
+                    <label for="">CNPJ: </label>
+                    <input class="inputs_contato" type="number" name="cnpj" id="cnpj">
+                </div>
+                <div class="flex-center">
+                    <label for="">E-mail: </label>
+                    <input class="inputs_contato" type="email" name="email" id="email">
+                </div>
+                <div class="flex-center">
+                    <label for="">Nome: </label>
+                    <input class="inputs_contato" type="text" name="nome" id="nome">
+                </div>
+                <div class="flex-center">
+                    <label for="">Usuário de Login: </label>
+                    <input class="inputs_contato" type="text" name="login" id="login">
+                </div>
+                <div class="flex-center">
+                    <label for="">Senha de login: </label>
+                    <input class="inputs_contato" type="text" name="senha" id="senha">
+                </div>
+                <div class="flex-center">
+                    <label for="">Escolha o Sistema: </label>
+                    <select class="select">
+                        <option value="0">Soft NF-e Web</option>
+                        <option value="1">Soft Gestor Web</option>
+                    </select>
+                </div>
+                <button class="myBtn env">Enviar</button>
+            </div>
+
+        </div>
+    </div>
+        <div id="myModalFooter" class="modal">
+
+            <div class="modal-content">
+                <span class="closeFooter">&times;</span>
+                <div class="flex-modal">
+                    <div id="sistemas" class="tituloS ">
+                        <p class="modal-titulo">Opa! Estamos quase lá!</p>
+                        <p class="modal-titulo-segundo">Por favor, preencha o formulário que entraremos em contato!</p>
+                    </div>
+                    <div class="flex-center">
+                        <label for="">CNPJ: </label>
+                        <input class="inputs_contato" type="number" name="cnpj" id="cnpj">
+                    </div>
+                    <div class="flex-center">
+                        <label for="">E-mail: </label>
+                        <input class="inputs_contato" type="email" name="email" id="email">
+                    </div>
+                    <div class="flex-center">
+                        <label for="">Nome: </label>
+                        <input class="inputs_contato" type="text" name="nome" id="nome">
+                    </div>
+                    <div class="flex-center">
+                        <label for="">Usuário de Login: </label>
+                        <input class="inputs_contato" type="text" name="login" id="login">
+                    </div>
+                    <div class="flex-center">
+                        <label for="">Senha de login: </label>
+                        <input class="inputs_contato" type="text" name="senha" id="senha">
+                    </div>
+                    <div class="flex-center">
+                        <label for="">Escolha o Sistema: </label>
+                        <select class="select">
+                            <option value="0">Soft NF-e Web</option>
+                            <option value="1">Soft Gestor Web</option>
+                        </select>
+                    </div>
+                    <button class="myBtn env">Enviar</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="modalbody" class="modal">
+
+            <div class="modal-content">
+                <span class="closeBody">&times;</span>
+                <div class="flex-modal">
+                    <div id="sistemas" class="tituloS ">
+                        <p class="modal-titulo">Opa! Estamos quase lá!</p>
+                        <p class="modal-titulo-segundo">Por favor, preencha o formulário que entraremos em contato!</p>
+                    </div>
+                    <div class="flex-center">
+                        <label for="">CNPJ: </label>
+                        <input class="inputs_contato" type="number" name="cnpj" id="cnpj">
+                    </div>
+                    <div class="flex-center">
+                        <label for="">E-mail: </label>
+                        <input class="inputs_contato" type="email" name="email" id="email">
+                    </div>
+                    <div class="flex-center">
+                        <label for="">Nome: </label>
+                        <input class="inputs_contato" type="text" name="nome" id="nome">
+                    </div>
+                    <div class="flex-center">
+                        <label for="">Usuário de Login: </label>
+                        <input class="inputs_contato" type="text" name="login" id="login">
+                    </div>
+                    <div class="flex-center">
+                        <label for="">Senha de login: </label>
+                        <input class="inputs_contato" type="text" name="senha" id="senha">
+                    </div>
+                    <div class="flex-center">
+                        <label for="">Escolha o Sistema: </label>
+                        <select class="select">
+                            <option value="0">Soft NF-e Web</option>
+                            <option value="1">Soft Gestor Web</option>
+                        </select>
+                    </div>
+                    <button class="myBtn env">Enviar</button>
+                </div>
+
+                </div>
+            </div>
+        </div>
+            <footer class="criador">
+
+            </footer>
+
+            <script src="js/index.js"></script>
 </body>
 
 </html>

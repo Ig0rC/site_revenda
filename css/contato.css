@@ -1,5 +1,5 @@
 .tituloContato{
-    max-width: 1600px;
+    max-width: 1400px;
     margin: 0 auto;
   
     color: green;
@@ -9,12 +9,17 @@
 }
 
 .Formulario{
-    max-width: 1400px;
+    max-width: 1300px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
-    flex-wrap: wrap;
+ 
+}
+@media (max-width: 1150px){
+    .Formulario{
+        flex-wrap: wrap;
+    }
 }
 
 .inputsNomeSobrenome p{
@@ -30,10 +35,19 @@
     background: rgba(196, 196, 196, 24%);
     font-size: 20px;
     padding-left: 10px;
-    margin: 15px 5px;
-    width: 300px;
+    margin: 15px 10px;
+    width: 295px;
     height: 50px;
     color: black;
+    border: 1px solid green !important;
+}
+@media (max-width: 640px){
+    .input-1{
+        width: 100%;
+    }
+    .inputs_contato{
+        width: 96%;
+    }
 }
 .contatologo{
     margin-top: 30px;
@@ -53,6 +67,9 @@
     max-width: 52px;
     
 }
+.flex-input{
+    display: flex;
+}
 
 textarea{
     border: none;
@@ -60,12 +77,14 @@ textarea{
     height: 10px;
     background: rgba(196, 196, 196, 24%);
     padding-left: 15px;
-    padding-right: 15px;
-    width: 620px ;
+    padding-right: 10px;
+    width: 610px ;
     height: 100px;
+    margin-left: 10px;
     font-size: 18px;
     font-family: "Roboto", Helvetica, sans-serif;
     font-weight: 400;
+    border: 1px solid green !important;
     
 }
 
@@ -112,7 +131,8 @@ textarea{
    
 }
 .contato-margin{
-    margin-bottom: 100px;
+    padding-bottom: 100px;
+    background: #cecece5b;
 }
 
 .criador{
@@ -120,6 +140,11 @@ textarea{
     background: #4F5FA8;
     height: 20px;
     
+}
+@media (max-width: 640px){
+    .flex-input{
+        flex-wrap: wrap;
+    }
 }
 @media (max-width:320px){
     .contatoinfo{
@@ -152,13 +177,10 @@ textarea{
      }
 }
 
-@media (max-width: 532px){
+@media (max-width: 639px){
     .formInputs{
         flex: 1 1 600px;
      
-     }
-     .inputs_contato{
-         width: 97%;
      }
      textarea{
         width: 97%;

@@ -1,0 +1,160 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 2% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    border-radius: 30px;
+  }
+
+
+
+  .flex-modal{
+      display: flex;
+      flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+  .flex-center{
+     display: flex;
+     flex-direction: column;
+  }
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+.select{
+    
+    border-radius: 30px;
+    border: none;
+    background: rgba(196, 196, 196, 24%);
+    font-size: 20px;
+    padding-left: 10px;
+    margin: 15px 5px;
+    width: 300px;
+    height: 50px;
+    color: black;
+    border: 1px solid green !important;
+}
+.modal-titulo{
+    margin: 20px 5px;
+}
+.modal-titulo-segundo{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1200px){
+    .modal-content{
+        width: 80%;
+    }
+    .modal-content-Body{
+      width: 80%;
+  }
+}
+@media (max-width: 750px){
+  .modal-content{
+      width: 80%;
+  }
+  .modal-content-Body{
+    width: 80%;
+}
+}
+@media (max-width: 640px){
+    .modal-content{
+        width: 100%;
+    }
+    .modal-content-Body{
+      width: 100%;
+    }
+    .select{
+        width: 100% !important;
+    }
+    .flex-center{
+        width: 100%;
+    }
+    .modal-titulo, .modal-titulo-segundo{
+        font-size: 20px !important;
+    }
+}
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }  
+  .closeBody {
+    color: #aaa;
+    float: right;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .closeBody:hover,
+  .closeBody:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }  
+
+  .closeFooter {
+    color: #aaa;
+    float: right;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .closeFooter:hover,
+  .closeFooter:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }  
+ 
+
+
+
+
+
+  /* select */
+
+
+
+/* MODAL BODY */
+.modalBody{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content-Body {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  border-radius: 30px;
+}

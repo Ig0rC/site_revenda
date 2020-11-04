@@ -1,17 +1,11 @@
-.sistemas{
-  background: #F8F8F8;
- 
-}
-.sistemas-2{
-    background: #F8F8F8;
-  }
+
 .vantagens{
     background: white;
 }
 
 
 .tituloS{
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0 auto;
     text-align: center;
     color: green;
@@ -19,8 +13,11 @@
     font-size: 32px;
     padding-top: 50px;
     word-wrap: break-word;
+   
 }
-
+.border-top-green{
+    border-top: 2px solid green;
+}
 .descricaoS{
     max-width: 1100px;
     margin: 0 auto;
@@ -50,11 +47,11 @@
 }
 
 .column-S{
-    max-width: 1600px;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    flex-wrap: wrap;
+    
 }
 
 .colunaS{
@@ -72,7 +69,11 @@
         justify-content: space-around;
     }
 }
-
+@media (max-width: 978px){
+    .column-S{
+        flex-wrap: wrap;
+    }
+}
 .colunaS h2{
     margin: 20px 0px;
     color: #00FF29;
