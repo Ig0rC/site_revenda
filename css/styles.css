@@ -9,7 +9,40 @@ body, h1, h2, p, ul, li, a{
 a:link{
     text-decoration: none !important;
 }
+.textTitulo{
+    font-size: 32px;
+    font-weight: 600;
+    color: white
+}
+.descTitulo p{
+    font-size: 16px;
+    color: rgb(219, 219, 219);
+    font-weight: 500;
+}
+.buttonHomeTitulo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.btn-titulo{
+    padding: 10px 25px;
+    background: rgb(255, 238, 238);
+    border: none;
+    color: #4F5FA8;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 22px;
+    cursor: pointer;
+    border: 1px solid yellow;
+}
+.btn-titulo:hover{
+    background: white;
+}
 
+.inicio-sct{
+  
+    background-image: url(../img/office.png);
+}
 /* info */
 .color-a{
     color: white;
@@ -44,13 +77,12 @@ a:link{
 
 .navbar{
     margin: 0 auto;
-    margin-bottom: 20px;
+   
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
     padding: 20px 4px;
     align-content: center;
-    border-bottom: 1px solid #4F5FA8;
     flex-wrap: wrap;
 
 }
@@ -188,3 +220,21 @@ img{
     }
 }
 
+
+.azulbg{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #4F5FA8 ;
+    font-weight: 400;
+    font-size: 32px;
+    padding-top: 50px;
+    word-wrap: break-word;
+    padding-bottom: 50px;
+    border-bottom: 2px solid green;
+   
+}
+.solucoes{
+    background:#cecece5b;
+    padding-bottom: 45px;
+}

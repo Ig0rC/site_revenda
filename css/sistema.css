@@ -1,6 +1,12 @@
 
 .vantagens{
-    background: white;
+    background:#cecece5b;
+}
+.sistemas{
+    background:#cecece5b;
+}
+.sistemas-2{
+     background:#cecece5b;
 }
 
 
@@ -10,7 +16,7 @@
     text-align: center;
     color: green;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 26px;
     padding-top: 50px;
     word-wrap: break-word;
    
@@ -40,6 +46,7 @@
     font-weight: 600;
     border-radius: 30px;
     background: #4B9543;
+    cursor: pointer;
 }
 .descricaoS p{
     color: black;
