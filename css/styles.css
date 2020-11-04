@@ -150,10 +150,15 @@ img{
   
 }
 
-@media (max-width: 800px){
+@media (max-width: 930px){
     .inicio{
         flex-wrap: wrap;
         justify-content: center !important;
+        text-align: center;
+        padding-top: 100px;
+    }
+    .homem{
+        order: -1;
     }
 }
 
@@ -243,7 +248,7 @@ img{
     position: fixed;
     width: 50px;
     height: 50px;
-    top: 45px;
+    top: 120px;
     right: 20px;
     background-color: #25d366;
     color: #FFF;
@@ -273,4 +278,16 @@ img{
 
 .fa-arrow-up{
     margin-top: 16px;
+}
+
+@media (max-width: 1030px){
+    .wp{
+        top: 160px;
+    }
+}
+
+@media (max-width: 473px){
+    .wp{
+        top: 180px
+    }
 }
