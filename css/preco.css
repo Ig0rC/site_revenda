@@ -1,5 +1,5 @@
 .precos{
-   background: #cecece5b;
+   background: white;
 }
 
 .column-precos{
@@ -14,71 +14,50 @@
 
 .preco-1{
     text-align: center;
-    background: white;
-    padding-bottom: 200px;
-    border-radius: 30px;
+    background: #4F5FA8;
+
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     
 }
 
-.preco-1 h2 {
+.tituloP{
     text-align: center;
-    background: #4F5FA8;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 34px 133.5px;
+    color: #00ffdd;
+    padding: 30px 30px;
     font-size: 30px;
-    color: white;
+    font-weight: 600;
+    font-size: 45;
 }
+
 .preco-1 span{
     font-size: 100px !important;
-  
+    color: #00ffdd;
 }
 .preco-2{
     text-align: center;
-    background: white;
-    border-radius: 30px;
-    
+    background: #4F5FA8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .preco-vlr{
     font-size: 20px;
-    color: red;
+    color: white;
+    font-weight: 400;
     padding: 50px 0px;
 }
-.tituloP{
-    text-align: center;
-    background: #4F5FA8;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 34px 133.5px;
-    font-size: 30px;
-    color: white;
-}
+
 .preco-2 span{
     font-size: 100px !important;
-  
+    color: #00ffdd;
 }
 
 
-.preco-2 h2{
-    text-align: center;
-    background: #4F5FA8;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
+
 .precos-flex-1{
     margin: 5px 5px;
-     width: 520px;
-}
-
-.btn-p{
-    margin-top: 100px !important;
-    padding: 30px 100px;
-    background: #00EA25;
-    border-radius: 10px;
-    font-size: 22px;
-    font-weight: 800;
-    color:#4F5FA8;
-   
+    width: 400px;
 }
 
 .TP{
@@ -95,11 +74,27 @@
 
 }
 
-.pp{
-   text-align: start; 
-   max-width: 60%;
-   margin: 0 auto;
-}
+
+
+.btn-grad {background-image: linear-gradient(to right, #485563 0%, #29323c  51%, #485563  100%)}
+.btn-grad {
+   height: 40px;
+   width: 100%;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border: none;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
 
 @media (max-width: 1059px){
     .column-precos{
@@ -111,17 +106,5 @@
     .tituloP{
         padding: 5% 10%;
     }
-    .pp{
-        text-align: start; 
-        max-width: 80%;
-        margin: 0 auto;
-    }
-}
-@media (max-width: 600px){
-   
-    .pp{
-        text-align: start; 
-        max-width: 90%;
-        margin: 0 auto;
-    }
+    
 }

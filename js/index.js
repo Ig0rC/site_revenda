@@ -34,7 +34,11 @@ var span = document.getElementsByClassName("close")[0];
 
 
 btn.onclick = function() {
-  modal.style.display = "block";
+
+
+    modal.style.display = "block";
+    // document.getElementById('div_iframe').innerHTML = ""
+  
   
 }
 

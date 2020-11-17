@@ -1,0 +1,29 @@
+.flex-gestor-funcionalidades{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 50px 10px;
+    flex-wrap: wrap;
+}
+.flex-funcionalidades{
+    text-align: center;
+    width: 200px;
+    height: 116px;
+    margin: 10px 0px;
+}
+.icone-gestor{
+    font-size: 45px;
+    color: #4F5FA8;
+}
+
+.flex-funcionalidades p{
+    font-size: 20px;
+}
+
+@media (max-width: 775px){
+    .flex-gestor-funcionalidades{
+        flex-wrap: wrap;
+    }
+
+}

@@ -1,0 +1,44 @@
+.flex-cloud{
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+
+.icon-flex-utils{
+    display: flex;
+}
+.icon-flex-utils i{
+    font-size: 40px;
+    color: #4F5FA8;
+}
+.icon-flex-utils h2{
+    font-size: 35px;
+    color: green;
+    font-weight: 400;
+}
+.container-utils{
+    margin: 10px 10px;
+}
+
+.utilidade-bg{
+    background: white !important;
+    padding: 40px 0;
+}
+
+@media (max-width: 510px){
+    .flex-cloud{
+        justify-content: space-around;
+    }
+}
+@media (max-width: 300px){
+    .flex-cloud{
+        justify-content: flex-start;
+    }
+    .container-utils{
+        margin: 15px 15px;
+    }
+}

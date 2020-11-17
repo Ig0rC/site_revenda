@@ -18,14 +18,68 @@
     <link rel="stylesheet" href="css/btn.css">
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main-first/main.css">
+    <link rel="stylesheet" href="css/super-info/super.css">
+    <link rel="stylesheet" href="css/navbar/navbar.css">
+    <link rel="stylesheet" href="css/main-gestorLite/maingestor.css">
+    <link rel="stylesheet" href="css/caracteristicas/utils.css">
+    <script src="https://kit.fontawesome.com/115b0e63e5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div id="inicio"class="super-info-bg">
         <div class="super-info">
-            <p>Santa Catarina</p>
-            <p>contato@infocomex.com.br</p>
-            <a class="color-a" href="tel:+4732491347">(47) 32491347</a>
+            <div class='flex-fixo'>
+                <div>
+                    <span class="super-info-div-wpp">
+                        <a class="super-info-icon-fixo">
+                            <i class="fa fa-phone"></i>
+                        
+                        </a>          
+                    </span>
+                </div>
+                <div>
+                    <span class="super-info-texto-fixo">
+                        <p>
+                            Ligue grátis para nossa equipe de vendas
+                        </p>
+                    </span>
+                </div>
+                <div>
+                    <span class="super-info-numero-fixo">
+                        <p>
+                            (47) 3249-1347
+                        </p>
+                    </span>
+                </div>
+            </div>
+            <div class='flex'>
+                <div>
+                    <span class="super-info-texto-fixo">
+                        <p>
+                            ou Envie Whatsapp
+                        </p>
+                    </span>
+                </div>
+                <div>
+                    <span class="super-info-div-wpp">
+                        <a class="super-info-icon-wpp"href="https://api.whatsapp.com/send?1=pt_BR&phone=554732491347" target="_blank">
+                            <i class="fa fa-whatsapp">
+                            </i>
+                          </a>          
+                    </span>
+                </div>
+                <div>
+                    <span class="super-info-numero-movel-wpp">
+                        <p>
+                            (47) 32491347
+                        </p>
+                    </span>
+                </div>
+            </div>
+           
+          
+        
         </div>
     </div>
     <header class="navbar mobile">
@@ -50,168 +104,218 @@
         <div class="logo">
             <img class="size" src="img/logo_250px.png" alt="" srcset="">
         </div>
-        <div class="menu">
-            <ul>
-                <li><a href="#inicio">Ínicio</a></li>
-                <li><a href="#sistemas">Sistemas</a></li>
-                <li><a href="#precos">Preços</a></li>
-                <li><a href="#duvidas">Dúvidas</a></li>
-                <li><a href="#contato">Contato</a></li>
-                <li><a class="color-a-enter" href="#">entrar</a></li>
+        <div class='list-menu'>
+            <ul class='c-dropdown'>
+                <li class="c-dropdown_item">
+                    <a class="c-dropdown_menu-link">Ínicio</a>
+                </li>
+                <li class="c-dropdown_item hover-item-first">
+                    <a>Sistemas</a>
+
+                    <ul class="c-dropdown_submenu">
+                        <li class="c-dropdown_submenu-item space-bottom">
+                            <a  href="#gestorLite" class="c-dropdown_submenu-link">
+                                    Gestor Lite
+                            </a>
+                        </li>
+                        <li class="c-dropdown_submenu-item">
+                            <a href="#simplesEmissor" class="c-dropdown_submenu-link">
+                                    Simples Emissor
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="c-dropdown_item">
+                    <a class="c-dropdown_menu-link">Preços</a>
+                </li>
+                <li class="c-dropdown_item">
+                    <a class="c-dropdown_menu-link">Dúvidas</a>
+                </li>
+                <li class="c-dropdown_item">
+                    <a href="https://sistema.infocomex.com.br/Login"class="color-a-enter" target="__blank">Entrar</a>
+                </li>
+
             </ul>
         </div>
     </header>
 
     <section class="inicio-sct inicio-sct2">
         <div class="inicio">
-            <div class="linha">
-                <img src="img/notebook.png" alt="">
-            </div>
-            <div class="homem">
-                <div class="bg-white">
-                    <div class="textTitulo">Simples Emissor<br>ou<br>Gestor Lite</div>
-                    <div class="textSub"><p>Qual deles você precisa ?</p></div>
-                    <div class="descTitulo">
-                        <p>
-                            Veja abaixo as caracteristícas de cada uma das 
-                            <br>soluções e escolha a melhor para o perfil de sua empresa.
-                        </p>
+                <div class="linha">
+                    <img src="img/notebook.png" alt="">
                 </div>
-                </div>
+            <div class="bg-info">
+                    <div class="bg-white">
+                            <div class="textTitulo">Emissor de NF-e de produtos</div>
+                            <div class="descTitulo">
+                                <p>
+                                    Emita suas notas fiscais de produto de forma ágil com um sistema emissor completo,
+                                    <br>integrado ao controle financeiro, vendas e estoque.
+
+                            
+                                </p>
+                        </div>
+                    </div>
             
-                    <div class="buttonHomeTitulo">
-                        <button class="btn-titulo" type="submit" id="myBtn">experimente grátis por 15 dias</button>
-                    </div>  
-                </div>
+                    
+                        <div class="buttonArrow">
+                            <i><img class="arrowHome"src="/img/arrow.svg" alt="" srcset=""></i>
+                        </div>  
+                        <div class="buttonHomeTitulo">
+                            <button class="btn-titulo" type="submit" id="myBtn">experimente grátis por 15 dias</button>
+                        </div>  
             </div>
+            
         </div>
-    </section>
-    <section id="sistemas" class="solucoes">
-            <div class="azulbg">
-            
-             </div>
-    
     </section>
      <!-- GESTOR -->
      <section class="sistemas-2">
-        <div class="tituloS">
+        <div class="azulbg">
             <p>Gestor Lite</p>
+        </div> 
+        <div class="flex-gestor-funcionalidades">
+            <div class="flex-funcionalidades">
+                <i class="fa fa-calculator icone-gestor" aria-hidden="true"></i>
+
+                <p>Contas a Pagar</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fa fa-money icone-gestor" aria-hidden="true"></i>
+                <p>Contas a Receber</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fas fa-clipboard-list icone-gestor"></i>
+                <p>Resumo de Notas Emitidas/Imposto</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fa fa-cubes icone-gestor" aria-hidden="true"></i>
+
+                <p>Controle de Estoque</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fas fa-file-invoice icone-gestor" ></i>
+                <p>Emissão de NFC-e</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fas fa-clipboard-list icone-gestor"></i>
+                <p>Contas a Receber por Moeda</p>
+            </div>
+            <div class="flex-funcionalidades ">
+                <i class="fa fa-file-pdf-o icone-gestor" aria-hidden="true"></i>
+                <p>Exportação de notas em PDF</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fas fa-file-contract icone-gestor"></i>
+                <p>Emissão NF-e</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fa fa-paper-plane icone-gestor" aria-hidden="true"></i>
+                <p>Envio de Notas Fiscais <br>por E-mail</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fas fa-clipboard-list icone-gestor"></i>
+                <p>Resumo de Vendas</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fas fa-truck-moving icone-gestor"></i>
+                <p>Emissor de MDF-e</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fa fa-file-code-o icone-gestor" aria-hidden="true"></i>
+                <p>Exportão de X'ML</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fa fa-file-archive-o icone-gestor" aria-hidden="true"></i>
+                <p>Exportão para a Contabilidade</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fa fa-file-text icone-gestor" aria-hidden="true"></i>
+                <p>Emissão de boletos</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fas fa-clipboard-list icone-gestor"></i>
+                <p>Lista de Produtos Vendidos</p>
+            </div>
+         
+          
         </div>
-        <div class="descricaoS">
-            <p>O Gestor Lite é capaz de controlar toda a movimentação financeira, faturamento
-                e estoque da sua empresa, gerando relatórios diversos para melhorar a saúde de seu empreendimento.
-                Está vinculado à emissão de NF-e, MDF-e e NFC-e.
-            </p>
+     </section>
+     <section class="sistemas-2">
+        <div class="azulbg">
+            <p>Simples Emissor NF-e</p>
+        </div> 
+        <div class="flex-gestor-funcionalidades">
+            <div class="flex-funcionalidades">
+                <i class="fas fa-clipboard-list icone-gestor"></i>
+                <p>Notas Fiscais emitidas / impostos</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fas fa-file-invoice icone-gestor" ></i>
+                <p>Emissão de NFC-e</p>
+            </div>
+
+            <div class="flex-funcionalidades ">
+                <i class="fa fa-file-pdf-o icone-gestor" aria-hidden="true"></i>
+                <p>Exportação de notas em PDF</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fas fa-file-contract icone-gestor"></i>
+                <p>Emissão NF-e</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fa fa-paper-plane icone-gestor" aria-hidden="true"></i>
+                <p>Envio de Notas Fiscais <br>por E-mail</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fas fa-clipboard-list icone-gestor"></i>
+                <p>Carteira de Clientes</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fa fa-file-code-o icone-gestor" aria-hidden="true"></i>
+                <p>Exportão de X'ML</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fa fa-file-archive-o icone-gestor" aria-hidden="true"></i>
+                <p>Exportão para a Contabilidade</p>
+            </div>
+            <div class="flex-funcionalidades">
+                <i class="fas fa-clipboard-list icone-gestor"></i>
+                <p>Lista de Produtos Vendidos</p>
+            </div>
+         
+          
         </div>
 
-        <div class="column-S">
+     </section>
+     <section id="utilidade-bg" class="utilidade-bg"> 
 
-            <div class="colunaS">
-                <img class="image_sistema white" src="img/cadastro_system.png" alt="" srcset="">
-                <h2>Cadastro</h2>
-                <div class="center">
-                    <p>Cliente / Fornecedor</p>
-                    <p>Produto / Serviço</p>
-                    <p>Grupo de Produto</p>
-                    <p>Forma de Pagamento</p>
-                    <p>Importação de banco de dados</p>
-                    <p>Banco de dados prontos para diversos seguimentos</p>
-                    <p class="fim">Transportador</p>
+        <div class="flex-cloud">
+            <div class="container-utils">
+                <div class="icon-flex-utils">
+                    <i class="fa fa-cloud" aria-hidden="true"></i>
+                    <h2>Online</h2>
                 </div>
+
             </div>
-            <div class="colunaS 2">
-                <img class="image_sistema white" src="img/nfe_io-icon-svg.png" alt="" srcset="">
-                <h2>Operacional</h2>
-                <div class="center">
-                    <p>Emissor de NFC-e (PDV completo)</p>
-                    <p>Emissor de NF-e</p>
-                    <p>Emissor de MDF-e</p>
-                    <p>Emissor de Boleto (Remessa e Retorno)</p>
-                    <p>Backup automático</p>
-                    <p>Exportação e Envio de XML e PDF por e-mail</p>
-                    <p>Baixa Automática (Retorno do Boleto)</p>
-                    <p>Controle de Contas a Pagar</p>
-                    <p>Controle de Contas a Receber</p>
-                    <p>Controle de Contas a Pagar</p>
-                    <p>Entrada, Saída e Inventário de Estoque</p>
-                    <p>Tela de Compra com importação pelo XML do fornecedor</p>
-                    <p class="fim">Exportação Contábil (Arquivo XML enviado por e-mail)</p>
+            <div class="container-utils">
+                <div class="icon-flex-utils">
+                    <i class="fa fa-magic" aria-hidden="true"></i>
+                    <h2>Fácil</h2>
                 </div>
+          
+
             </div>
-            <div class="colunaS C3">
-                <img class="image_sistema" src="img/relatorio.png" alt="" srcset="">
-                <h2>Relatório</h2>
-                <div class="center2">
-                    <p>Carteira de Cliente/Fornecedor</p>
-                    <p>Lista de Produtos Vendidos</p>
-                    <p>Produtos Vendidos por Período</p>
-                    <p>Resumo de Notas Emitidas/Imposto </p>
-                    <p>Resumo de Vendas</p>
-                    <p>Contas a Receber por Moeda</p>
-                    <p>Contas a Pagar por Moeda </p>
-                    <p>Saldo de Estoque por Grupo de Produto </p>
-                    <p>Histórico de Movimentação por Produto </p>
-                    <p class="fim">Entre outros... </p>
+            <div class="container-utils">
+                <div class="icon-flex-utils">
+                    <i class="fa fa-line-chart" aria-hidden="true"></i>
+                    <h2>Eficientes</h2>
                 </div>
+             
             </div>
+            
         </div>
     
     </section>
-    <section class="sistemas">
-        <div  class="tituloS">
-            <p>Simples Emissor</p>
-        </div>
-        <div class="descricaoS">
-            <p>O simples Emissor é a solução a favor do empreendedores que querem apenas cumprir 
-                a obrigação legal de notas fiscais, porém com um sistema fácil, seguro e que permita 
-                um melhor controle dos arquivos.
-            </p>
-        </div>
-        <div class="column-S">
-            <div class="colunaS">
-                <img class="image_sistema white" src="img/cadastro_system.png" alt="" srcset="">
-                <h2>Cadastro</h2>
-                <div class="center">
-                    <p>Cliente / Fornecedor</p>
-                    <p>Produto / Serviço</p>
-                    <p>Tributação</p>
-                    <p>Forma de Pagamento</p>
-                    <p class="fim">Transportador</p>
-                </div>
-            </div>
-            <div class="colunaS 2">
-                <img class="image_sistema white" src="img/nfe_io-icon-svg.png" alt="" srcset="">
-                <h2>Operacional</h2>
-                <div class="center">
-                    <p>Venda / Serviço com emissão de NF-e para: Emissão de NF-e</p>
-                    <p>Emissor PDV NFC-e Web</p>
-                    <p>Envio de NF-e / NFC-e por e-mail </p>
-                    <p class="fim">Exportação Contábil (Arquivo XML enviado por e-mail)</p>
-                </div>
-            </div>
-            <div class="colunaS C3">
-                <img class="image_sistema" src="img/relatorio.png" alt="" srcset="">
-                <h2>Relatório</h2>
-                <div class="center2">
-                    <p>Carteira de Cliente </p>
-                    <p>Cadastro de Produto/Serviço</p>
-                    <p class="fim">Notas Fiscais Emitidas / Impostos</p>
-                </div>
-            </div>
-        </div>
-        <div class="btn-free">
-            <div class="tituloS">
-                <p>Gostou de alguma solução? deseja fazer o teste grátis por 15 dias?</p>
-            </div>
-            <div class="btn-styles">
-                <button class="myBtn env" id="btnBody">Clique aqui</button>
-            </div>
-        </div>
-    </section>
-
-   
-
-    <!-- sistemas -->
 
     <!-- GESTOR -->
     <section id="funcionalidades" class="vantagens">
@@ -282,7 +386,7 @@
                 <p>Não perca tempo! Entre em contato agora mesmo</p>
             </div>
             <div class="btn-styles">
-                <button class="myBtn env" id="btnFooter">Teste Agora!!</button>
+                <button class="myBtn env" id="btnFooter">Clique aqui e Teste Agora Grátis!!</button>
             </div>
         </div>
     </div>
@@ -297,19 +401,18 @@
          </div>
         <div class="column-precos">
             <div class="preco-1 precos-flex-1">
-                <p class="tituloP">Simples Emissor</p>
+                <p class="tituloP">Simples Emissor NF-e</p>
                 <p class="preco-vlr">
                     R$
                     <span>49</span>
 
                     ,90 / mês
                 </p>
+                <button class="btn-grad ">
+                    Teste agora, grátis o Simples Emissor NF-e!
+                </button>
 
-                <div class="pp">
-                    <p class='preco-ds'>Acesso em qualquer Computador com Internet</p>
-                    <p class='preco-ds'>Emissor de NF-e</p>
-                    <p class='preco-ds'>Relatório diversos</p>
-                </div>
+
             </div>
             <div class="preco-2 precos-flex-1">
                 <p class="tituloP">Gestor Lite</p>
@@ -320,17 +423,11 @@
 
                         ,00 / mês
                     </p>
-                    <div class="pp">
-                        <p class='preco-ds'>Acesso em qualquer Computador com Internet</p>
-                        <p class='preco-ds'>Emissor de NF-e</p>
-                        <p class='preco-ds'>NF-e com boleto integrado</p>
-                        <p class='preco-ds'>Controle de Financeiro</p>
-                        <p class='preco-ds'>Controle de Estoque</p>
-                        <p class='preco-ds'>Relatório diversos</p>
-                    </div>
-
+                 
                 </div>
-
+                <button class="btn-grad ">
+                    Teste agora, grátis o Gestor Lite!
+                </button>
             </div>
         </div>
     </section>
@@ -383,44 +480,6 @@
          </div>
         <!-- formulario -->
         <div class="Formulario">
-            <!-- inputs -->
-            <div class="formInputs">
-                <div class="inputsNomeSobrenome">
-                    <p>Dados pessoais</p>
-                    <div class="flex-input">
-                        <div class="input-1">    
-                            <input class="inputs_contato" placeholder="nome" type="text" name="name">
-                        </div>
-                        <div class="input-1">
-                            <input class="inputs_contato" placeholder="sobrenome" type="text" name="sobrenome">
-                        </div>
-                    </div>
-                  
-                    
-                </div>
-
-                <div class="inputsTelefoneEmail">
-                    <div class="flex-input">
-                        <div class="input-1">    
-                            <input class="inputs_contato" placeholder="e-mail" type="email" name="email" id="">
-
-                        </div>
-                        <div class="input-1">
-                            <input class="inputs_contato" placeholder="telefone" type="tel" name="" id="">
-                        </div>
-                    </div>
-             
-                </div>
-                <div class="text">
-                    <textarea placeholder="Mensagem" name="msg" id="msg" cols="30" rows="10"></textarea>
-                </div>
-                <div class="btn">
-                    <div class="btnstyles">
-                        <button class="env" type="submit">enviar</button>
-                    </div>
-                </div>
-            </div>
-            <!-- logo -->
             <div class="contatologo">
                 <img src="img/logo_contato.png" alt="" srcset="">
                 <div class="contatoinfo">
@@ -434,41 +493,12 @@
 
     <div id="myModal" class="modal">
 
-        <div class="modal-content">
+        <div class="modal-content" id="div_iframe">
             <span class="close">&times;</span>
             <div class="flex-modal">
-                <div id="sistemas" class="tituloS ">
-                    <p class="modal-titulo">Opa! Estamos quase lá!</p>
-                    <p class="modal-titulo-segundo">Por favor, preencha o formulário que entraremos em contato!</p>
-                </div>
-                <div class="flex-center">
-                    <label for="">CNPJ: </label>
-                    <input class="inputs_contato" type="number" name="cnpj" id="cnpj">
-                </div>
-                <div class="flex-center">
-                    <label for="">E-mail: </label>
-                    <input class="inputs_contato" type="email" name="email" id="email">
-                </div>
-                <div class="flex-center">
-                    <label for="">Nome: </label>
-                    <input class="inputs_contato" type="text" name="nome" id="nome">
-                </div>
-                <div class="flex-center">
-                    <label for="">Usuário de Login: </label>
-                    <input class="inputs_contato" type="text" name="login" id="login">
-                </div>
-                <div class="flex-center">
-                    <label for="">Senha de login: </label>
-                    <input class="inputs_contato" type="text" name="senha" id="senha">
-                </div>
-                <div class="flex-center">
-                    <label for="">Escolha o Sistema: </label>
-                    <select class="select">
-                        <option value="0">Simples Emissor</option>
-                        <option value="1">Gestor Lite</option>
-                    </select>
-                </div>
-                <button class="myBtn env">Enviar</button>
+                <iframe height="525" width="500" style="border-radius: 5px !important; border: none; margin-top: 25px;" class="scFormPage"
+                src='https://sistema.softvendas.com.br/fat_cad_empresa_sistema_demo_control/?var_id_empresa_revenda=60000'>
+                </iframe>
             </div>
 
         </div>
