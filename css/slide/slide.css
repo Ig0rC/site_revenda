@@ -4,10 +4,11 @@
   align-items: center;
   max-width: 1100px;
   margin: 0 auto;
-
+  
 }
+
 .sistemas-galeria{
-  max-width: 1600px;
+  max-width: 1100px;
   margin: 0 auto
 }
 .desc-gestor{
@@ -24,7 +25,12 @@
   color: blue;
 }
 
-.carousel-inner{
-  width: 80%;
-  margin: 0 auto;
+.carousel{
+  width: 60%;
+}
+
+@media (max-width: 1100px){
+  .flex-desc-slide{
+    flex-wrap: wrap;
+  }
 }

@@ -83,6 +83,65 @@ window.onclick = function(event) {
   }
 }
 
+var modal = document.getElementById("myModal");
+
+var btn = document.querySelectorAll("#myBtn")[2];
+
+document.getEle
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+
+    modal.style.display = "block";
+  
+  
+}
+
+span.onclick = function() {
+  if(modal.style.display == "block"){
+    modal.style.display = "none";
+  }
+  modal.style.display = "none";
+  
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+var modal = document.getElementById("myModal");
+
+var btn = document.querySelectorAll("#myBtn")[3];
+
+document.getEle
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+
+    modal.style.display = "block";
+  
+  
+}
+
+span.onclick = function() {
+  if(modal.style.display == "block"){
+    modal.style.display = "none";
+  }
+  modal.style.display = "none";
+  
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
 
 
 //slider

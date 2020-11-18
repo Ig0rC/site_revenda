@@ -10,7 +10,7 @@
     color: white;
     flex-wrap: wrap;
     align-items: center;
-    padding: 10px 0;
+    padding: 5px 0;
     font-family: "Roboto", Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -33,8 +33,8 @@
 .super-info-icon-fixo{
     color: #00ffdd !important;
     font-size: 28px;
-    top: 3px;
-    position: relative;
+    margin-top: 5px;
+    
 }
 .super-info-numero-movel-wpp p{
     margin: 0 auto;

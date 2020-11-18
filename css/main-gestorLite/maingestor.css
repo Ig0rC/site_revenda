@@ -18,7 +18,7 @@
 }
 
 .flex-funcionalidades p{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 @media (max-width: 775px){
@@ -26,4 +26,7 @@
         flex-wrap: wrap;
     }
 
+}
+.desc-gestor p{
+    font-size: 18px;
 }

@@ -85,28 +85,12 @@
    text-decoration: none;
  }
 
-
-/* .btn-titulo{
-    padding: 10px 20px;
-    background: #00ffdd;
-    border: none;
-    color: black;
-    border-radius: 5px;
-    font-weight: 600;
-    font-size: 16px;
-    cursor: pointer;
-    opacity: 100% !important;
-
-   
+@media (max-width: 700px){
+    .btn-titulo{
+        height: 50%;
+        width: 100%;
+    }
 }
-
-.btn-titulo:hover{
-    background: #4F5FA8;
-    border: 1px solid white;
-    color: white;
-} */
-
-
 .buttonHomeTitulo{
    text-align: center;
    padding: 30px 30px;
