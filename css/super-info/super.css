@@ -10,13 +10,19 @@
     color: white;
     flex-wrap: wrap;
     align-items: center;
-    padding: 5px 0;
     font-family: "Roboto", Helvetica, sans-serif;
     font-weight: bold;
+}
+.no-padding-info{
+    padding: 0% !important;
 }
 
 .super-info p, .super-info a{
     margin: 0 10px 10px 10px;
+}
+.p-super-info{
+    font-size: 16px;
+    padding: 0px !important;
 }
 
 .super-info-text-wpp{
@@ -50,6 +56,10 @@
 .super-info-texto-fixo p{
     margin: 0 auto;
     padding-top: 5px;
+}
+.reset-class-a{
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 
