@@ -26,8 +26,7 @@ for (i = 0; i < acc.length; i++) {
 
 var modal = document.getElementById("myModal");
 
-
-var btn = document.getElementById("myBtn");
+var btn = document.querySelectorAll("#myBtn")[1];
 
 
 var span = document.getElementsByClassName("close")[0];
@@ -35,14 +34,45 @@ var span = document.getElementsByClassName("close")[0];
 
 btn.onclick = function() {
 
-
     modal.style.display = "block";
-    // document.getElementById('div_iframe').innerHTML = ""
   
   
 }
 
 span.onclick = function() {
+  if(modal.style.display == "block"){
+    modal.style.display = "none";
+  }
+  modal.style.display = "none";
+  
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+var modal = document.getElementById("myModal");
+
+var btn = document.querySelectorAll("#myBtn")[0];
+
+document.getEle
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+
+    modal.style.display = "block";
+  
+  
+}
+
+span.onclick = function() {
+  if(modal.style.display == "block"){
+    modal.style.display = "none";
+  }
   modal.style.display = "none";
   
 }
@@ -55,60 +85,27 @@ window.onclick = function(event) {
 
 
 
+//slider
 
+let time = 11000,
+    currentImageIndex = 0,
+    images = document.querySelectorAll("#slider img"),
+    max= images.length;
 
-// Get the modal
-var modalbody = document.getElementById("modalbody");
-
-// Get the button that opens the modal
-var btnBody = document.getElementById("btnBody");
-
-// Get the <span> element that closes the modal
-var spanBody = document.getElementsByClassName("closeBody")[0];
-
-// When the user clicks on the button, open the modal
-btnBody.onclick = function() {
-  modalbody.style.display = "block";
-  console.log(modalbody)
+function nexImage(){
+    images[currentImageIndex].classList.remove("selected")
+    currentImageIndex++
+    if(currentImageIndex >= max){
+      currentImageIndex =0;
+    }
+    images[currentImageIndex].classList.add("selected")
 }
 
-// When the user clicks on <span> (x), close the modal
-spanBody.onclick = function() {
-  modalbody.style.display = "none";
-  console.log(modalbody)
+function start(){
+   setInterval(() => {
+      console.log("função rodada")
+      nexImage()
+   }, time)
 }
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modalbody) {
-    modalbody.style.display = "none";
-  }
-}
-
-
-// Get the modal
-var myModalFooter = document.getElementById("myModalFooter");
-
-// Get the button that opens the modal
-var btnFooter = document.getElementById("btnFooter");
-
-// Get the <span> element that closes the modal
-var spanFooter = document.getElementsByClassName("closeFooter")[0];
-
-// When the user clicks on the button, open the modal
-btnFooter.onclick = function() {
-  myModalFooter.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-spanFooter.onclick = function() {
-  myModalFooter.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == myModalFooter) {
-    myModalFooter.style.display = "none";
-  }
-}
-
+window.addEventListener("load", start)

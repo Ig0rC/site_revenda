@@ -1,6 +1,6 @@
 .vantagens{
    
-    background: #cecece5b;
+    background: #EDF2F7;
 }
 .vantagens-div{
     max-width: 1200px;
@@ -9,7 +9,7 @@
 .vantagens-sub{
     display: flex;
     justify-content: space-between;
-    margin: 50px 0;
+    margin-top: 25px;
  
 }
 

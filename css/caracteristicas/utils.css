@@ -1,9 +1,9 @@
 .flex-cloud{
-    max-width: 1150px;
+    max-width: 1300px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+
     
 
 }
@@ -17,15 +17,15 @@
 }
 .icon-flex-utils h2{
     font-size: 35px;
-    color: green;
+    color: #17A2B8;
     font-weight: 400;
 }
 .container-utils{
-    margin: 10px 10px;
+    width: 400px;
 }
 
 .utilidade-bg{
-    background: white !important;
+    background: #EDF2F7 !important;
     padding: 40px 0;
 }
 
@@ -41,4 +41,16 @@
     .container-utils{
         margin: 15px 15px;
     }
+}
+.texto-division{
+
+    text-align: center;
+    background:  #4F5FA8;
+    font-weight: 400;
+    font-size: 32px;
+    padding-top: 50px;
+    word-wrap: break-word;
+    color: white ;
+    padding-bottom: 50px;
+   
 }

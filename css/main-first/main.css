@@ -8,7 +8,7 @@
     text-align: center;
     
 }
-.bg-info{
+.msg-info-home{
     background :#4F5FA8;
     display: flex;
     
@@ -17,7 +17,7 @@
     border-radius: 10px;
 }
 @media (max-width: 929px){
-    .bg-info{
+    .msg-info-home{
         width: 100%;
         border-radius: 1px!important;
     }
@@ -65,8 +65,28 @@
     text-align: center;
 }
 
-
+.btn-titulo {background-image: linear-gradient(to right, #00ffdd 0%,  #00ffdd  51%, #4F5FA8  100%)}
 .btn-titulo{
+   height: 40px;
+   width: 50%;
+   text-align: center !important;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: black;      
+   font-weight: 600;      
+   border: none;
+   cursor: pointer;
+   padding: 10px 20px;
+ }
+
+ .btn-titulo:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+/* .btn-titulo{
     padding: 10px 20px;
     background: #00ffdd;
     border: none;
@@ -84,7 +104,7 @@
     background: #4F5FA8;
     border: 1px solid white;
     color: white;
-}
+} */
 
 
 .buttonHomeTitulo{

@@ -75,8 +75,28 @@
 }
 
 
+.btn-grad-principaisF {background-image: linear-gradient(to right, #00ffdd 0%,  #00ffdd  51%, #4F5FA8  100%)}
+.btn-grad-principaisF{
+   height: 40px;
+   width: 50%;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: black;      
+   font-weight: 600;      
+   border: none;
+   display: block;
+ }
 
-.btn-grad {background-image: linear-gradient(to right, #485563 0%, #29323c  51%, #485563  100%)}
+ .btn-grad-principaisF:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+.btn-grad {background-image: linear-gradient(to right, #00ffdd 0%,  #00ffdd  51%, #4F5FA8  100%)}
 .btn-grad {
    height: 40px;
    width: 100%;
@@ -84,7 +104,8 @@
    text-transform: uppercase;
    transition: 0.5s;
    background-size: 200% auto;
-   color: white;            
+   color: black;      
+   font-weight: 600;      
    border: none;
    display: block;
  }

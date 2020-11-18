@@ -1,0 +1,25 @@
+.flex-desc-slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+
+}
+.sistemas-galeria{
+  max-width: 1600px;
+  margin: 0 auto
+}
+.desc-gestor{
+  max-width: 500px;
+}
+
+.fa-arrow-right{
+  font-size: 25px;
+  color: blue;
+}
+
+.fa-arrow-left{
+  font-size: 25px;
+  color: blue;
+}

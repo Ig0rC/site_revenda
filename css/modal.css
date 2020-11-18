@@ -12,7 +12,7 @@
   }
   .modal-content {
     height: 570px;
-    margin: 2% auto; /* 15% from the top and centered */
+    margin: 10% auto; /* 15% from the top and centered */
     padding-right: 100px;
     border-radius: 6px;
     width: 520px;

@@ -169,7 +169,10 @@ img{
         display: none;
     }
 }
-
+.img{
+    width: 800px;
+    margin: 10px 10px;
+}
 
 .azulbg{
     max-width: 1200px;
@@ -177,11 +180,10 @@ img{
     text-align: center;
     color: #4F5FA8 ;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 35px;
     padding-top: 50px;
     word-wrap: break-word;
     padding-bottom: 50px;
-    border-bottom: 2px solid green;
    
 }
 .solucoes{
