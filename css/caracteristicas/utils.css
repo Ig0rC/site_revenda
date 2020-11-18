@@ -22,6 +22,7 @@
 }
 .container-utils{
     width: 400px;
+    margin: 20px 5px;
 }
 
 .utilidade-bg{
@@ -29,9 +30,10 @@
     padding: 40px 0;
 }
 
-@media (max-width: 510px){
+@media (max-width: 1000px){
     .flex-cloud{
         justify-content: space-around;
+        flex-wrap: wrap;
     }
 }
 @media (max-width: 300px){

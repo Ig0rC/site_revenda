@@ -68,7 +68,7 @@
 .btn-titulo {background-image: linear-gradient(to right, #00ffdd 0%,  #00ffdd  51%, #4F5FA8  100%)}
 .btn-titulo{
    height: 40px;
-   width: 50%;
+   width: 300px;
    text-align: center !important;
    transition: 0.5s;
    background-size: 200% auto;
