@@ -30,7 +30,7 @@ a:link{
 .navbar{
     margin: 0 auto;
    
-    max-width: 1200px;
+    max-width: 1100px;
     display: flex;
     justify-content: space-between;
     padding: 20px 4px;

@@ -3,7 +3,8 @@
     background: #EDF2F7;
 }
 .vantagens-div{
-    max-width: 1200px;
+   
+    max-width: 1100px;
     margin: 0 auto;
 }
 .vantagens-sub{
@@ -25,7 +26,7 @@
 .tituloV{
 
     padding-bottom: 15px;
-    color: green;
+    color: #17A2B8;
     font-weight: 400;
     font-size: 26px;
    
